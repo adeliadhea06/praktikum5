@@ -67,45 +67,45 @@ Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian
 
 - Program meminta memasukkan data sebanyak-banyaknya (gunakan perulangan)
 - Tampilkan pertanyaan untuk menambah data (y/t?), apabila jawaban   
-"t", maka program akan menampilkan daftar datanya.
-- Nilai akhir diambil dari perhitungan 3 komponen nilai (tugas: 35%, uts: 25%, uas: 40%)
+t (tidak), maka program akan menampilkan daftar datanya.
+- Nilai akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)
 - Buat flowchart dan penjelasan programnya pada README.md.
 - Commit dan push repository ke github.
 
 #### Langkah-langkah :
 1. Buat programnya terlebih dahulu
 
-    # Membuat Tugas Praktikum
-    data =[]
-    while True :
-        nama       = input    ("Nama        : ")
-        nim        = input    ("NIM         : ")
-        tugas      = int(input("Nilai Tugas : "))
-        uts        = int(input("Nilai UTS   : "))
-        uas        = int(input("Nilai UAS   : "))
-        nilaiakhir = float(tugas)*35/100+(uts)*25/100+(uas)*40/100
-        data.append([nama,nim,tugas,uts,uas,nilaiakhir])
-        lagi= input("Tambah data (y/t)? ")
-        if lagi.lower() =="t":
-            break
+        # Membuat Tugas Praktikum
+        data =[]
+        while True :
+            nama       = input    ("Nama        : ")
+            nim        = input    ("NIM         : ")
+            tugas      = int(input("Nilai Tugas : "))
+            uts        = int(input("Nilai UTS   : "))
+            uas        = int(input("Nilai UAS   : "))
+            nilaiakhir = float(tugas)*30/100+(uts)*35/100+(uas)*35/100
+            data.append([nama,nim,tugas,uts,uas,nilaiakhir])
+            lagi= input("Tambah data (y/t)? ")
+            if lagi.lower() =="t":
+                break
 
 
-    print("=====================================================================================");
-    print("|  No  |     Nama     |     NIM     |   Tugas   |   UTS   |   UAS   |  Nilai Akhir  |");
-    print("=====================================================================================");
-    i=0
-    for x in data:
-        i+=1
-        print("|  {6:2}  |  {0:10}  |  {1:9}  |  {2:7}  |  {3:5}  | {4:6}  |  {5:11.2f}  |"\
-              .format (x[0][:9] , x[1][:9],x[2],x[3],x[4],x[5], i))
-    print("=====================================================================================");
+        print("=====================================================================================");
+        print("|  No  |     Nama     |     NIM     |   Tugas   |   UTS   |   UAS   |  Nilai Akhir  |");
+        print("=====================================================================================");
+        i=0
+        for x in data:
+            i+=1
+            print("|  {6:2}  |  {0:10}  |  {1:9}  |  {2:7}  |  {3:5}  | {4:6}  |  {5:11.2f}  |"\
+                  .format (x[0][:9] , x[1][:9],x[2],x[3],x[4],x[5], i))
+        print("=====================================================================================");
     
-    ![Screenshot (115)](https://user-images.githubusercontent.com/115794875/203254753-7fe9e881-bbca-4d46-ac29-6aeb1f7afaad.png)
+    ![Screenshot (117)](https://user-images.githubusercontent.com/115794875/203259851-30488874-1cde-4a14-9442-cfd790bdac1b.png)
 
     
 2. Hasil Run
 
-![Screenshot (116)](https://user-images.githubusercontent.com/115794875/203254835-160cdd8c-e206-4cb0-9496-bd9cff83786d.png)
+![Screenshot (118)](https://user-images.githubusercontent.com/115794875/203259916-a841078c-01c6-4507-851d-98a403fc53d9.png)
 
 
 ### Penjelasan Program :
