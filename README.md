@@ -23,13 +23,12 @@ Buat sebuah list sebanyak 5 elemen dengan nilai bebas
 #### Langkah-langkah :
 1. Buat programnya terlebih dahulu.
 
- ```python
-# Latihan
+#Latihan
 print("Nama: Dhea Dwi Adelia")
 print("NIM : 312210116")
 
 print("Membuat List sebanyak 5 elemen dengan nilai bebas")
-# akses list
+#akses list
 a = [6, 9, 5, 8, 2]
 print(a) #Menampilkan semua elemen
 print(a[2]) #Menampilkan elemen ke 3
@@ -37,14 +36,14 @@ print(a[1:3]) #Menampilkan elemen ke 2 sampai dengan ke 4
 print(a[4]) #Menampilkan elemen terakhir
 
 print("==========================================")
-# ubah elemen list
+#ubah elemen list
 a[3] = 5 # Mengubah elemen ke 4 dengan nilai lainnya
 print(a[3]) # Menampilkan elemen ke 4 yang sudah diubah nilainya
 a[3:4] = 5, 8 # Mengubah elemen ke 4 sampai dengan elemen terakhir
 print(a[3:5]) # menampilkan elemen ke 4 sampai dengan elemen terakhir
 
 print("==========================================")
-# tambah elemen list
+#tambah elemen list
 b = a[0:2] # Mengambil 2 bagian dari list pertama (a) dan jadikan list kedua (b)
 print(b)
 b.append(10) # Menambah list dengan nilai string
@@ -52,7 +51,7 @@ print(b)
 b.extend([1, 4, 11]) # Menambah list b dengan 3 nilai
 print(b)
 c = a+b # Menggabungkan list b dengan list a
-print(c)```
+print(c)
 
     ![Screenshot (110)](https://user-images.githubusercontent.com/115794875/203252664-ef3e1f91-2f60-4963-9003-7780741d6327.png)
     
