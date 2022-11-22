@@ -1,3 +1,5 @@
+# PRAKTIKUM 5
+
 Nama  : Dhea Dwi Adelia
 
 NIM   : 312210116
@@ -111,7 +113,7 @@ t (tidak), maka program akan menampilkan daftar datanya.
 ### Penjelasan Program :
 1. Buatlah list berupa Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS.
 2. Lalu inputlah Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS.
-3. Lalu mencari nilai akhir dengan perhitungan nilai tugas 35%, nilai uts 25% dan uas 40% , dengan perintah float
+3. Lalu mencari nilai akhir dengan perhitungan nilai tugas 30%, nilai uts 35% dan uas 35% , dengan perintah float
 4. Gunakan perintah append pada Nama, NIM, Nilai tugas, Nilai UTS, Nilai UAS untuk menambahkan 1 item ke elemen terakhir.
 5. Jika ingin menambah list data ketik "y" dan jika tidak ingin menambahkan list data ketik "t". Dengan perintah while jawab =="y" dan if jawab =="t". Jawab input("Tambah data (y/t)").
 6. Gunakanlah perulangan for, dengan perintah for i in range(len(Nama)):. Fungsi "len" ialah untuk mengembalikan panjang (jumlah anggota) dari suatu objek.
