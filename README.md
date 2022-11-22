@@ -23,8 +23,7 @@ Buat sebuah list sebanyak 5 elemen dengan nilai bebas
 #### Langkah-langkah :
 1. Buat programnya terlebih dahulu.
 
-   # Latihan
-   ```python
+ ```python
 print("Nama: Dhea Dwi Adelia")
 print("NIM : 312210116")
 
