@@ -52,9 +52,10 @@ print(b)
 b.extend([1, 4, 11]) # Menambah list b dengan 3 nilai
 print(b)
 c = a+b # Menggabungkan list b dengan list a
-print(c)
+print(c)```
 
     ![Screenshot (110)](https://user-images.githubusercontent.com/115794875/203252664-ef3e1f91-2f60-4963-9003-7780741d6327.png)
+    
     ![Screenshot (111)](https://user-images.githubusercontent.com/115794875/203252885-8b77e0a9-6b68-44c9-8130-9d31a467871c.png)
 
 2. Hasil Run
