@@ -121,6 +121,7 @@ t (tidak), maka program akan menampilkan daftar datanya.
 8. Selesai
 
 ### Flowchart Praktikum 5
+![image](https://user-images.githubusercontent.com/115794875/203287196-2f07a952-69c9-43fd-9277-0c6aa4689897.png)
 
 
-### Sekian, Terima kasih 
+### Sekian, Terima Kasih 
